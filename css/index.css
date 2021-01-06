@@ -1,0 +1,153 @@
+.swiper-container {
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+}  
+.nav_shop{
+    height: 80px;
+    border-bottom: 1px solid #ebebeb;
+}
+.nav_shop a{
+    text-decoration: none !important;
+    color: #333;
+}
+.nav_shop li{
+    float: left;
+    width: 24.6%;
+    border-right: 1px solid #ebebeb;
+    text-align: center;
+    margin-top: 15px;
+}
+.nav_shop li:nth-child(4){
+    border: none;
+}
+.nav_shop img{
+    margin-right: 12px;
+}
+.subjs{
+    margin-top: 40px;
+}
+.subjs a:nth-child(1){
+    margin-right: 16px;
+}
+.Recommand h2{
+    margin-top: 53px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.Recommand .shop_img{
+    display: inline-block;
+    /* border: 1px solid #333; */
+    margin-bottom: 5px;
+    background-color: #F9F9F9;
+}
+.tag span{
+    color: #d74d45;
+    border: 1px solid #d74d45;
+}
+.tag .p1{
+    width: 244px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.tag .p1 a{
+    color: #333;
+    
+}
+.tag .p2{
+    width: 244px;
+    text-align: center;
+    color: #d74d45;
+    font-size: 16px;
+}
+.tag{
+    display: block;
+    /* border: 1px solid #000; */
+    float: left;
+    margin-right: 41px;
+}
+.cnt{
+    background-color: #F9F9F9;
+    padding-left: 58px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    overflow: hidden;
+    margin-top: 56px;
+}
+.inner{
+    float: left;
+}
+.inner i{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+.inner h1{
+    padding-top: 28px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+.inner h2{
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+.inner h4{
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.covers{
+    float: right;
+    position: relative;
+}
+.covers i {
+    font-size: 130px;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+.covers img:nth-child(1){
+    position: absolute;
+    top: 36px;
+    right: 50px;
+    z-index: 99;
+}
+.covers img:nth-child(2){
+    position: absolute;
+    top: 36px;
+    right: 120px;
+}
+.hotShops h2{
+    margin-top: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+.hotShops .shop_img{
+    display: inline-block;
+    /* border: 1px solid #333; */
+    margin-bottom: 5px;
+    background-color: #F9F9F9;
+}
+.hotShops .tag{
+    /* display: block; */
+    /* border: 1px solid #000; */
+    /* float: left; */
+    margin-right: 29px;
+}
+.mr-none{
+    margin-right: 0px !important;
+}
+.span_none{
+    display: none;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/comman.css">
+    <link rel="stylesheet" href="../css/shopDetail.css">
+    <script src="../jquery/jquery.js"></script>
+    <script src="../bootstrap/js/jquery-1.11.0.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../js/ajax1.js"></script>
+    <script src="../js/backTop1.js"></script>
+    <style>
+        .container1 {
+            margin: 0 auto;
+            width: 1170px;
+        }
+
+        .d33a31 {
+            border: 1px solid #d33a31;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="main.html"><img src="../images/logo.jpg" alt=""></a>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="H16真无线">
+                    <i class="iconfont icon-sousuo"></i>
+                </form>
+                <div class="Car" style="margin-top:9px">
+                    <div class="car iconfont icon-gouwuche" style="cursor: pointer;"></div>
+                    <!-- <span>0</span> -->
+                </div>
+                <div class="user-info" style="cursor: pointer; margin-top: 3px;">
+                    <img class="img1"
+                        src="http://p4.music.126.net/g6sp5LrpvCdkset-edljrA==/109951165008586216.jpg?param=36y36">
+                    <div class="xiala"><i class="iconfont icon-xiala xiala1" style="display: block;"></i></div>
+                    <div class="shangla"><i class="iconfont icon-shangla shangla1" style="display: none;"></i></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="border_bot"></div>
+    <div class="container1"></div>
+    <!-- 返回顶部 -->
+    <div class="m-warp" style="top: 300px;">
+        <div class="m1 m_wrap" style="cursor: pointer;"><span>查看<br />营业执照</span></div>
+        <div class="m2 m_wrap"><span>100%<br />正品</span></div>
+        <div class="m3 m_wrap"><span>七天无理<br />由退款</span></div>
+        <div class="m4 m_wrap">
+            <span>
+                <i class="iconfont icon-gouwuche shopcar-icon"></i>
+                <!-- <span class="car-num">0</span><br> -->
+                <span class="car-word">购物车</span>
+            </span>
+        </div>
+        <div class="m5 m_wrap">
+            <span>
+                <i class="iconfont icon-kefu icon"></i><br>
+                <span class="car-word kf">客服</span>
+            </span>
+        </div>
+        <div class="m6 m_wrap">
+            <span><i class="iconfont icon-shangla"></i><br><span class="top1">Top</span></span>
+        </div>
+    </div>
+    <!-- 版权信息 -->
+    <div class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>
+                    <a href="#" class="s-fc4">服务条款</a>
+                    <span class="line">|</span>
+                    <a href="#" class="s-fc4">隐私政策</a>
+                    <span class="line">|</span>
+                    <a href="#" class="s-fc4">儿童隐私政策</a>
+                    <span class="line">|</span>
+                    <a href="#" class="s-fc4">版权投诉指引</a>
+                    <span class="line">|</span>
+                    <a href="#" class="s-fc4">意见反馈</a>
+                </p>
+                <p class="s-fc3">
+                    <span class="sep">网易公司版权所有©1997-2020</span>
+                    杭州乐读科技有限公司运营：
+                    <a href="#" class="s-fc3">浙网文[2018] 3506-263号</a>
+                </p>
+                <p class="s-fc3">
+                    <span class="sep">违法和不良信息举报电话: 0571-89853516</span>
+                    举报邮箱：
+                    <a href="#" class="s-fc3">ncm5990@163.com</a>
+                </p>
+                <p class="s-fc3">
+                    <a href="#" class="s-fc3">食品经营许可证</a>
+                    <a href="#" class="s-fc3">出版物经营许可证</a>
+                    <a href="#" class="s-fc3">业执照</a>
+                    <span class="sep">网络食品交易第三方平台提供者信息备案: 浙网食A33010041</span>
+                </p>
+                <p class="s-fc3">
+                    <span class="sep">粤B2-20090191-18</span>
+                    举报邮箱：
+                    <a href="#" class="s-fc3">工业和信息化部备案管理系统网站</a>
+                </p>
+            </div>
+            <ul>
+                <li><a href="#"><i class="iconfont icon-cd a01"></i><br>独立音乐人</a></li>
+                <li><a href="#"><i class="iconfont icon-cd a02"></i><br>音乐专栏</a></li>
+                <li><a href="#"><i class="iconfont icon-cd a03"></i><br>自媒体</a></li>
+                <li><a href="#"><i class="iconfont icon-cd a04"></i><br>赞赏</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/shopDetail.js"></script>
+    <script>
+        var toCar = document.querySelector('.Car');
+        toCar.onclick = () => {
+            window.location.href = "./car.html"
+        }
+
+        var carWord = document.querySelector('.m4');
+        carWord.onclick = () => {
+            window.location.href = "./car.html"
+        }
+
+    </script>
+</body>
+
+</html>
